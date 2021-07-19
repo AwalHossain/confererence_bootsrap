@@ -3,3 +3,13 @@
     color: rgba(255,255,255, .85);
     font-size: 1.1em;
 }
+.jumbotron{
+    background-image: url("../img/jumbo-bg.jpg");
+    background-size: cover;
+}
+
+@media (min-width:992px){
+    .btn-md-lg{
+        font-size: 1.5em;
+    }
+}
